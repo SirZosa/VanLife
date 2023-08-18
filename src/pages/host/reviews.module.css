@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.header h2{
+    font-size: 1.75em;
+}
+
+.header p{
+    color: rgb(103, 103, 103);
+}
+
+.header span{
+    text-decoration: underline;
+}
+
+.graph{
+    width: 100%;
+    max-width: 900px;
+    
+    margin-bottom: 1em;
+}
+
+.content h3{
+    font-size: 1.25em;
+    margin-bottom: .5em;
+}
+
+.stars{
+    color: #FF8C38;
+}
+
+.info{
+    display: flex; 
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.date{
+    color: rgb(103, 103, 103);;
+}
+
+.text{
+    line-height: 1.5em;
+}

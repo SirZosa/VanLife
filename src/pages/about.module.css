@@ -1,0 +1,23 @@
+.img{
+    width: 100%;
+}
+
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content h1{
+    line-height: 1em;
+}
+
+.aboutcard{
+    background-color: #FFCC8D;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10px;
+    margin: 1em auto;
+}
+
+.aboutcard h2{
+    margin: 0 0 1em;
+}

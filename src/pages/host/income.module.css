@@ -1,0 +1,31 @@
+.graph{
+    width: 100%;
+}
+
+.content span{
+    text-decoration: underline;
+}
+
+.content h1{
+    font-size: 2em;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transactionscard{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+
+.transactionscard h3{
+    font-size: 2em;
+}

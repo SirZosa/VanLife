@@ -1,0 +1,27 @@
+.home{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url(../assets/imgs/vanhome.png);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    height: 90vh;
+}
+
+.home h1{
+    font-size: 2.25em;
+}
+
+.home p{
+    font-size: 1.35em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.link{
+    display: inline-block;
+    margin-top: 1em;
+    border-radius: 4px;
+    background-color: coral;
+    padding: 0.5em 1em;
+    color: #fff;
+}

@@ -1,0 +1,70 @@
+.card{
+    margin: 1em auto;
+    background-color: #fff;
+    padding: 0.5em;
+    border-radius: 7px;
+}
+
+.vandisplay{
+    display: flex;
+    align-items: center;   
+    margin: 0.5em 0 1em 0;
+}
+
+.vandisplay h2, h3, p{
+    margin: 0;
+}
+
+.vandisplay h2{
+    font-size: 1.05em;
+    margin: 0.5em 0;
+}
+
+.vandisplay h3{
+    font-size: 1em;
+}
+
+.back{
+    text-decoration: underline;
+}
+
+.vandisplay img{
+    width: 40%;
+    border-radius: 4px;
+    margin-right: 1em;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.active{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+nav a{
+    color: #000000;
+}
+
+.simple, .rugged, .luxury, .none{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    color: #fff;
+}
+
+.simple{
+    background-color: rgb(247, 151, 103);
+}
+
+.rugged{
+    background-color: #115E59;
+}
+
+.luxury{
+    background-color: #d2a813;
+    background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%);
+}

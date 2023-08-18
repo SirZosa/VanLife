@@ -1,0 +1,8 @@
+.price span{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+}
+.price p{
+    color: rgb(135, 135, 135);
+}

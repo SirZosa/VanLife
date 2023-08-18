@@ -1,0 +1,115 @@
+.header{
+    margin-left: 1em;
+}
+
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.filter {
+    display: flex;
+    gap: 1em;
+}
+
+.simple, .rugged, .luxury, .none{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    color: #fff;
+    transition: 300ms all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clear{
+    color: #000000;
+    cursor: pointer;
+}
+
+.clear button{
+    cursor: pointer;
+    color: #000000;
+    text-decoration: underline;
+    background-color: #FFF7ED;
+}
+
+.filter a{
+    color: #fff;
+}
+
+.filter a:visited{
+    color:#ffffff;
+}
+
+.none{
+    background-color: #13b9d2;
+}
+
+.simple{
+    background-color: rgb(247, 151, 103);
+}
+
+.rugged{
+    background-color: #115E59;
+}
+
+.luxury{
+    background-color: #d2a813;
+    background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%);
+}
+
+
+.vansDisplay{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 45%);
+    justify-content: space-evenly;
+}
+
+.vansCard{
+    border-radius: 5px;
+    margin: 1em 0;
+    padding: 0.25em;
+    background-color: bisque;
+}
+
+.vansCard img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vansInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+
+.vansInfo h3, p{
+    margin: 0;
+}
+
+.tag{
+    display: inline-block;
+    margin: 0.5em 0 1em;
+    background-color: black;
+    border-radius: 3px;
+    color: aliceblue;
+    padding: 0.5em 1em;
+}
+
+@media (min-width: 500px){
+    .vansDisplay{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 30%);
+        justify-items: center;
+    }
+    .filters{
+        max-width: 500px;
+    }
+}
+
